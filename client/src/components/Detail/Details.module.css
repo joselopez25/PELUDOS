@@ -1,0 +1,26 @@
+.box{
+  background-color: #212E36;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid #2A3B47;
+  margin: 10px;
+  color: #EFF3F5;
+}
+
+.ppal{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img{
+  width: 50%;
+}

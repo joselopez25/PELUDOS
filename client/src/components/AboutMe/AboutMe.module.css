@@ -1,0 +1,30 @@
+.ppal{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #EFF3F5;
+  width: 70%;
+  background-color: #212E36;
+  border-radius: 20px;
+  border: 3px solid #2A3B47;
+  margin: 10px;
+}
+
+.img{
+  width: 50%;
+  border-radius: 20px;
+  border: 3px solid #2A3B47;
+}
+
+.linked{
+  width: 50%;
+}

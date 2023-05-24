@@ -1,0 +1,133 @@
+.box{
+  background-color: #212E36;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 5px;
+  padding-top: 60px;
+  border: 3px solid #2A3B47;
+  justify-content: center;
+}
+
+.ppal{
+  display: flex;
+}
+
+.filters{
+  height: 150vh;
+  width: 250px;
+  background-color: #212E36;
+  border-radius: 20px;
+  border: 3px solid #2A3B47;
+  margin-left: 15px;
+}
+
+.search{
+  background-color: red;
+  position: absolute;
+  top: 10px;
+}
+
+.page{
+  position: relative;
+  margin-top: 5px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.button{
+  margin: 3px;
+  width: 35px;
+  height: 20px;
+  background-color: #52A5E0;
+  border-radius: 5px;
+  border: none;
+  color: #EFF3F5;
+}
+.button:hover{
+  margin: 3px;
+  width: 40px;
+  height: 25px;
+  background-color: #15649d;
+}
+
+.button:focus{
+  margin: 3px;
+  width: 42px;
+  height: 27px;
+  background-color: #15649d;
+  border: 3px solid #EFF3F5;
+}
+
+.select{
+  margin: 3px;
+  width: 42px;
+  height: 27px;
+  background-color: #15649d;
+  border: 3px solid #EFF3F5;
+}
+
+.buttonindv{
+  margin: 5px;
+  width: 100px;
+  height: 25px;
+  background-color: #52A5E0;
+  border-radius: 5px;
+  border: none;
+  color: #EFF3F5;
+}
+
+.buttonindv:hover{
+  margin: 3px;
+  width: 110px;
+  height: 30px;
+  background-color: #15649d;
+}
+
+.filtros{
+  display: none;
+}
+
+@media screen and (max-width: 700px){
+  .filters{
+    display: none;
+  }
+
+  .filtros{
+    display: block;
+    position: relative;
+    margin: 5px;
+    margin-left: 20px;
+    width: 90%;
+    height: 25px;
+    background-color: #52A5E0;
+    border-radius: 5px;
+    border: none;
+    color: #EFF3F5;
+  }
+
+  .filtersvisible{
+    position: absolute;
+    height: 80%;
+    width: 250px;
+    background-color: #212E36;
+    border-radius: 20px;
+    border: 3px solid #2A3B47;
+    margin-left: 15px;
+    z-index: 10;
+  }
+
+  .page{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+  }
+}

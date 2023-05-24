@@ -1,0 +1,124 @@
+
+.derecha {
+  width: calc(1000px/7);
+  height: 80px;
+  background-image:url(./ImgDog/camder.png) ;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 48px;
+  animation: der 5s steps(7)  normal;
+}
+
+@keyframes der{
+  0%{
+    background-position: 30px;
+  }
+  25%{
+    background-position: -1000px;
+  }
+  51%{
+    background-position: 30px;
+  }
+  100%{
+    background-position: -1000px;
+  }
+}
+
+.izquierda {
+  width: calc(1000px/7);
+  height: 80px;
+  background-image:url(./ImgDog/camiz.png) ;
+  background-size: 1000px, 100px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  animation: izq 5s steps(7)  normal;
+}
+
+@keyframes izq{
+  100%{
+    background-position: -1030px;
+  }
+  51%{
+    background-position: 0px;
+  }
+  25%{
+    background-position: -1030px;
+  }
+  0%{
+    background-position: 0px;
+  }
+
+}
+
+
+.quieto{
+  width: 141px;
+  height: 80px;
+  background-image:url(./ImgDog/Recurso\ 1quieto.png) ;
+  background-size: 65px;
+  background-repeat: no-repeat;
+  background-position: 55px;
+  position: relative;
+}
+
+.arribader{
+  width: 141px;
+  height: 80px;
+  background-image:url(./ImgDog/Recurso\ 9abajoder.png);
+  background-size: 42px;
+  background-repeat: no-repeat;
+  background-position: 55px;
+  position: relative;
+}
+
+.arribaizq{
+  width: 141px;
+  height: 80px;
+  background-image:url(./ImgDog/Recurso\ 10abajoizq.png);
+  background-size: 42px;
+  background-repeat: no-repeat;
+  background-position: 55px;
+  position: relative;
+}
+
+.board {
+  display: grid;
+  width: 100%;
+  height: 11vh;
+  background: linear-gradient(#192229, #2A3B47);
+  grid-template: repeat(1,1fr) /repeat(100,1fr);
+}
+
+.pelota{
+  position: absolute;
+  width: 40px;
+  right: 25px;
+  bottom: 7px;
+}
+
+.hueso{
+  position: absolute;
+  width: 40px;
+  right: 70px;
+  bottom: 30px;
+}
+.plato{
+  position: absolute;
+  width: 70px;
+  left: 100px;
+  bottom: 10px;
+}
+.comida{
+  position: absolute;
+  width: 70px;
+  left: 10px;
+  bottom: 10px;
+}
+.collar{
+  position: absolute;
+  width: 50px;
+  left: 80px;
+  bottom: 50px;
+}

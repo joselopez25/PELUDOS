@@ -1,0 +1,129 @@
+.box{
+  width: 100%;
+  height: 60px;
+  background-color: #212E36;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid #2A3B47;
+}
+
+.img{
+  display: block;
+  position: absolute;
+  left: 200px;
+  height: 60px;
+}
+
+.boxinv{
+  margin-left: 600px;
+}
+
+.link{
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button{
+  background: none;
+  border: none;
+  color: #EFF3F5;
+  font-size: 16px;
+}
+
+.button:hover{
+  font-size: 18px;
+  border-bottom: 2px solid #52A5E0;
+}
+
+.buttonsal{
+  background: none;
+  border: none;
+  color: #EFF3F5;
+  font-size: 16px;
+}
+
+.buttonsal:hover{
+  font-size: 18px;
+  border-bottom: 2px solid #52A5E0;
+  color: red;
+}
+
+.menu{display: none;}
+
+@media screen and (max-width: 700px){
+  .img{
+    position: absolute;
+    left: 10px;
+    height: 60px;
+  }
+
+  .menu{
+    display: block;
+    position: absolute;
+    background: none;
+    color: white;
+    border:none;
+    right: 20px;
+    top: 5px;
+    font-size: 50px;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .boxvisible{
+    width: 100%;
+    height: 60px;
+    background-color: #212E36;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid #2A3B47;
+  }
+
+  .button{
+    background: none;
+    border: none;
+    color: #EFF3F5;
+    font-size: 16px;
+  }
+  
+  .button:hover{
+    font-size: 18px;
+    border-bottom: 2px solid #52A5E0;
+  }
+  
+  .buttonsal{
+    background: none;
+    border: none;
+    color: #EFF3F5;
+    font-size: 16px;
+  }
+  
+  .buttonsal:hover{
+    font-size: 18px;
+    border-bottom: 2px solid #52A5E0;
+    color: red;
+  }
+
+  .boxbt{
+    background-color: #212E36;
+    position: absolute;
+    right: 0px;
+    top: 65px;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+    border: 3px solid #2A3B47;
+    border-radius: 0px 0px 0px 100px;
+  }
+  .boxinv{
+    display: none;
+  }
+}
